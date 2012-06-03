@@ -90,7 +90,7 @@
         When creating your own presentation get rid of this file. Start from scratch, it's fun!
         
     -->
-    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/daonb.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -165,7 +165,12 @@
         
     -->
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
+      <center>
+        <q class="rtl" >דרך הקוד הפתוח</q>
+        <q class="rtl" style="font-size: 70%">מציג: בני דאון</q>
+        <q style="font-size: 70%"><a href="http://twitter.com/daonb">@daonb</a></q>
+
+      </center>
     </div>
 
     <!--
@@ -182,14 +187,10 @@
         Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
-    -->
     <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+      <q>Using ideas from two great masters:<br/><br/> <strong>Linus Torvalds</strong> and <strong>Guido Van Rossum</strong></q>
     </div>
-
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-    </div>
+    -->
 
     <!--
         
@@ -201,10 +202,12 @@
         down (4 times) to make it back to it's correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div id="itch" class="step" data-x="1300" data-y="-500" data-scale="4">
+        <div style="float:right; padding-top:50px;">
+        <img src="img/itch.jpg" style="width:400px;"/>
+      </div>
+        <blockquote>"Every good work of software starts by scratching a developer's personal itch"</blockquote>
+        <span class="footnote"><a href="http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazzar</a></span>
     </div>
 
     <!--
@@ -215,14 +218,21 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div id="lazy" class="step" data-x="0" data-y="2500" data-scale="5" data-rotate="90">
+      <blockquote>"Intelligence is the ability to avoid doing work, yet getting the work done."</blockquote>
+      <div style="float:right;">
+        <img src="img/linus.jpg" style="width:400px;"/>
+      </div>
+      <span class="footnote">Linus Torvalds</span>
+    </div>
+    <div id="eyeballs" class="step" data-x="2000" data-y="2700" data-rotate="270" data-scale="5">
+      <blockquote>"given enough eyeballs, all bugs are shallow"</blockquote>
+      <span class="footnote">Linus' Law</span>
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    <div id="bold" class="step" data-x="3300" data-y="2100" data-rotate="270" data-scale="4">
+      <blockquote>"I hate that whole 'victim philosophy'.  The truth shouldn't be sugarcoated."</blockquote>
+      <span class="footnote"><a href="https://github.com/torvalds/linux/pull/17#issuecomment-5654674">Linus Torvalds</a></span>
     </div>
 
     <!--
@@ -233,10 +243,10 @@
         `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
         positioned far away from us (by 3000px).
         
-    -->
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <p>and <b>tiny</b> ideas</p>
     </div>
+    -->
 
     <!--
         
@@ -258,21 +268,21 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div id="adults" class="step" data-x="3600" data-y="-100" data-rotate="90" data-scale="5">
+      <blockquote>"We're all consenting adults"</blockquote>
+      <span class="footnote"><a href="http://mail.python.org/pipermail/tutor/2003-October/025932.html">Python Proverb</a></span>
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    <div id="beuty" class="step" data-x="6700" data-y="-300" data-scale="6">
+      <blockquote>"Beautiful is better then ugly"</blockquote>
+      <span class="footnote"><a href="http://www.python.org/dev/peps/pep-0020/">The Zen of Python</a></span>
     </div>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
+    <div id="never" class="step" data-x="5600" data-y="2000" data-scale="4">
+      <div style="float:right;"><img src="img/silly_walks.png" style="height:500px;"/></div>
+      <blockquote>"Now is better than never.</blockquote>
+      <blockquote>Although never is often better than <strong>right</strong> now."</blockquote>
+      <span class="footnote"><a href="http://www.python.org/dev/peps/pep-0020/">The Zen of Python</a></span>
     </div>
 
     <!--
@@ -287,11 +297,6 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
-
     <!--
         
         So to make a summary of all the possible attributes used to position presentation steps, we have:
